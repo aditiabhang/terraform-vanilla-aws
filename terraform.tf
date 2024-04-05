@@ -1,11 +1,12 @@
 terraform {
   cloud {
-    organization = "aditi-abhang"
+    organization = "hashicorp-support-eng"
 
     workspaces {
-      name = "repro-workspace"
+      name = "tfc-repro-workspace"
     }
   }
+
   required_providers {
     aws = {
       source  = "hashicorp/aws"
